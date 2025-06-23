@@ -8,7 +8,7 @@
 原始数据集是Shu, Kai et al. “FakeNewsNet: A Data Repository with News Content, Social Context, and Spatiotemporal Information for Studying Fake News on Social Media.” Big data 8 3 (2018): 171-188 .
 格式转换.py用于将原始数据的.txt转成.csv,仅仅只是方便浏览数据。
 所用的大模型是通过ollama本地部署的gemma3。在本地部署大模型后，可以直接运行期末大作业第一问.py（我已将部分原始数据整理成验证集.csv）
-期末大作业第二问.py第二问可直接运行。
+期末大作业第二问.py可直接运行。lda_visualization.html、topic_distribution.png、topic_wordclouds.png是其结果。
 
 第三问：
 基础要求：32G的运行内存，独显（配置相应的CUDA）
