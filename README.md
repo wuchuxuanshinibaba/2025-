@@ -12,7 +12,7 @@
 
 第三问：
 基础要求：32G的运行内存，独显（配置相应的CUDA和torch版本）
-要求下载bert-base-中文文件和bert-base-uncased的文件，以及http://openke.thunlp.org/resources/embedding/freebase.zip（知识图谱）
+要求下载bert-base-中文文件和bert-base-uncased的文件（已提供），以及http://openke.thunlp.org/resources/embedding/freebase.zip（知识图谱）
 需要自行准备data文件夹（包含图片和csv文件，可通过最下方的引用论文进行获取（图片可根据csv中正文给出的网址得到））
 令bert-base-chinese、bert-base-uncased、data、Freebase、model、process同级保存在一个文件夹中，注意最好不要使用中文字符命名文件或文件夹。
 将相关文件的路径正确设置为你的电脑路径即可正常运行。
