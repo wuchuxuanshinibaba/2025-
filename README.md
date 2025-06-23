@@ -11,42 +11,12 @@
 期末大作业第二问.py可直接运行。lda_visualization.html、topic_distribution.png、topic_wordclouds.png是其结果。
 
 第三问：
-基础要求：32G的运行内存，独显（配置相应的CUDA）
+基础要求：32G的运行内存，独显（配置相应的CUDA和torch版本）
 要求下载bert-base-中文文件和bert-base-uncased的文件，以及http://openke.thunlp.org/resources/embedding/freebase.zip（知识图谱）
 需要自行准备data文件夹（包含图片和csv文件，可通过最下方的引用论文进行获取（图片可根据csv中正文给出的网址得到））
-
-![Uploading 微信图片编辑_20250623171158.jpg…]()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+令bert-base-chinese、bert-base-uncased、data、Freebase、model、process同级保存在一个文件夹中，注意最好不要使用中文字符命名文件或文件夹。
+将相关文件的路径正确设置为你的电脑路径即可正常运行。
+本网络最优秀的地方在于运行小数据集也不会出现梯度爆炸问题。
 
 如果无法正常运行或出现梯度爆炸问题，请查看requirement.txt的相关依赖版本
 
