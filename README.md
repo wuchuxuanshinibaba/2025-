@@ -12,7 +12,10 @@
 
 第三问：
 基础要求：32G的运行内存，独显（配置相应的CUDA）
+要求下载bert-base-中文文件和bert-base-uncased的文件，以及http://openke.thunlp.org/resources/embedding/freebase.zip（知识图谱）
+需要自行准备data文件夹（包含图片和csv文件，可通过最下方的引用论文进行获取（图片可根据csv中正文给出的网址得到））
 
+![Uploading 微信图片编辑_20250623171158.jpg…]()
 
 
 
