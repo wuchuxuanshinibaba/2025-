@@ -1,0 +1,5 @@
+acc:0.7	f1:0.6097560975609756	precision:0.625	recall:0.5952380952380952
+f1_real:0.7999999999999999	precision_real:0.75	recall_real:0.8571428571428571
+f1_fake:0.4	precision_fake:0.5	recall_fake:0.3333333333333333
+
+
