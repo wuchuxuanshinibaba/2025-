@@ -1,10 +1,14 @@
 # 2025-云计算大作业
-期末大作业第一问.py是关于用文本和情感分析结合大模型去做谣言检测；
-期末大作业第二问.py主要是做主题分析；
-双重不一致谣言检测网络的文件夹则是一个双重不一致的谣言检测网络。
+期末大作业第一问.py是用文本和情感分析结合大模型去做谣言检测；
+期末大作业第二问.py主要是做文本的主题分析；
+双重不一致谣言检测网络的文件夹则是利用双重不一致检测网络完成谣言检测任务。
+本大作业只聚焦于任务实现，只利用少量数据运行代码。
 
 第一、第二问：
-格式转换.py用于将原始的.txt转成.csv,仅仅只是方便浏览数据。
+原始数据集是Shu, Kai et al. “FakeNewsNet: A Data Repository with News Content, Social Context, and Spatiotemporal Information for Studying Fake News on Social Media.” Big data 8 3 (2018): 171-188 .
+格式转换.py用于将原始数据的.txt转成.csv,仅仅只是方便浏览数据。
+所用的大模型是通过ollama本地部署的gemma3。在本地部署大模型后，可以直接运行期末大作业第一问.py（我已将部分原始数据整理成验证集.csv）
+期末大作业第二问.py第二问可直接运行。
 
 第三问：
 基础要求：32G的运行内存，独显（配置相应的CUDA）
@@ -25,6 +29,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+如果无法正常运行或出现梯度爆炸问题，请查看requirement.txt的相关依赖版本
 
 双重不一致谣言检测网络引用自下面的论文：
 @inproceedings{sun-etal-2021-inconsistency-matters,
