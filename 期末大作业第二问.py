@@ -42,7 +42,7 @@ def load_data(file_path, num_samples=10):
         for row in reader:
             if len(row) >= 2:
                 content = row[1]
-                # 判断文本是否为英文（英文字母比例大于50%）
+                # 判断文本是否为英文（英文字母比例大于60%）
                 letters = re.findall(r'[A-Za-z]', content)
                 ratio = len(letters) / max(len(content), 1)
                 if ratio > 0.6:
