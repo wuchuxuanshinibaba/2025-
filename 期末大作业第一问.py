@@ -168,7 +168,7 @@ def main():
 
     try:
         # 设置采样比例，可以通过命令行参数传入
-        sample_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.01  # 默认使用20%的数据  
+        sample_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 0.1  
         print(f"使用数据采样比例: {sample_ratio*100}%")
         
         true_labels = get_true_labels(file_path, sample_ratio)
